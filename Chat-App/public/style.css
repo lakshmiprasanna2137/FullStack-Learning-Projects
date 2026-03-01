@@ -1,0 +1,49 @@
+body{
+    font-family: Arial;
+    background: #f2f2f2;
+    text-align: center;
+}
+
+h2{
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+#chat-box{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background: white;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+}
+
+#messages{
+    list-style: none;
+    padding: 10px;
+}
+
+#messages li{
+    padding: 8px;
+    margin: 5px;
+    background: #e3f2fd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+form{
+    margin-top: 10px;
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+}
+
+button{
+    padding: 10px 15px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+}
